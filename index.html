@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="syle.css">
+</head>
+
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="./images/wellness logo1.png" alt="">
+                    <h2>WELL <span class="danger">NESS</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <i class='bx bx-arrow-back'></i>
+                </div>
+            </div>
+            <div class="sidebar">
+                <a href="#">
+                    <i class='bx bxs-dashboard'></i>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#" class="active">
+                    <i class='bx bx-user'></i>
+                    <h3>Costumer</h3>
+                </a>
+
+                <a href="#">
+                    <i class='bx bx-store'></i>
+                    <h3>Orders</h3>
+                </a>
+                <a href="#">
+                    <i class='bx bx-sort-up'></i>
+                    <h3>Analytics</h3>
+                </a>
+                <a href="#">
+                    <i class='bx bxs-message-detail'></i>
+                    <h3>Messages </h3>
+                    <span class="message-count">26</span>
+                </a>
+                <a href="#">
+                    <i class='bx bx-list-check'></i>
+                    <h3>Products</h3>
+                </a>
+                <a href="#">
+                    <i class='bx bxs-report'></i>
+                    <h3>Reports</h3>
+                </a>
+                <a href="#">
+                    <i class='bx bx-cog'></i>
+                    <h3>Settings</h3>
+                </a>
+                <a href="#">
+                    <i class='bx bx-plus'></i>
+                    <h3>Add Product</h3>
+                </a>
+                <a href="#">
+                    <i class='bx bx-log-out'></i>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+        </aside>
+        <main>
+            <h1>Dashboard</h1>
+            <div class="date">
+                <input type="date">
+            </div>
+            <div class="insights">
+                <div class="sales">
+                    <i class='bx bxs-bar-chart-alt-2'></i>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Sales</h3>
+                            <h1>₹7,43,800</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy='38' r='36'>
+                                </circle>
+                            </svg>
+                            <div class="number">
+                                <p>81%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">
+                        Last 24 Hours
+                    </small>
+                </div>
+                <div class="expenses">
+                    <i class='bx bxs-credit-card-alt'></i>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Expenses</h3>
+                            <h1>₹4,20,700</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy='38' r='36'>
+                                </circle>
+                            </svg>
+                            <div class="number">
+                                <p>62%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">
+                        Last 24 Hours
+                    </small>
+                </div>
+                <div class="income">
+                    <i class='bx bx-money'></i>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Income</h3>
+                            <h1>₹3,23,100</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy='38' r='36'>
+                                </circle>
+                            </svg>
+                            <div class="number">
+                                <p>44%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">
+                        Last 24 Hours
+                    </small>
+                </div>
+            </div>
+            <div class="recent-orders">
+                <h2>Recent Orders</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Product Name</th>
+                            <th>Product Number</th>
+                            <th>Payment</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Protein Shake</td>
+                            <td>6078</td>
+                            <td>Due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <tr>
+                            <td>Protein Shake</td>
+                            <td>6078</td>
+                            <td>Due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <tr>
+                            <td>Protein Shake</td>
+                            <td>6078</td>
+                            <td>Due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <tr>
+                            <td>Protein Shake</td>
+                            <td>6078</td>
+                            <td>Due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <tr>
+                            <td>Protein Shake</td>
+                            <td>6078</td>
+                            <td>Due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="#">Show All</a>
+            </div>
+        </main>
+
+    </div>
+</body>
+
+</html>
